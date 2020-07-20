@@ -1,0 +1,39 @@
+.obookheader_navbar_button{
+    width: 150px;
+    height: 45px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: $color-text-alt;
+    a{
+        font-size: 1.3em;
+        
+        color: $white;
+    }
+    @media(max-width: $breakpoint-large) {
+        display: none;
+    }
+    @media(min-width: $breakpoint-large) {
+        width: 180px;
+    }
+
+    @media(min-width: $breakpoint-medium) {
+        width: 160px;
+    }
+
+}
+
+button 
+{
+    margin:0;
+    margin-top:0.4em;         
+    padding:0;
+
+    background-color: $color-text-alt;        
+
+    font: 1em sans-serif;
+    font-weight:regular;        
+    color: $white;       
+
+    width: 100%;
+
+}

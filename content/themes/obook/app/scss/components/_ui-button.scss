@@ -1,0 +1,22 @@
+.ui-button {
+    font-size: 2em;
+    @media(min-width: $breakpoint-medium) {
+
+        &.close-menu {
+        top: 20px;
+        
+        }
+    }
+    @media(min-width: $breakpoint-large) {
+        display: none;
+    }
+
+    @media(min-width: $breakpoint-extra-large){
+        display: none;
+
+    }
+}
+
+.close-menu{
+    color: $white;
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+html {
+    // font-size: $default-font-size;
+
+}
+
+body,
+input {
+    font-family: $font-family-content, $font-family-fallback;
+
+}
+
+body {
+    &.menu-visible {
+        .wrapper {
+            filter: blur(5px);
+        }
+        .menu {
+            visibility: visible;
+        }
+    }
+    padding: 1.5em 2em 2em 1.5em;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+//test it
+a {
+    text-decoration: none;
+    color: $color-text-alt;
+}

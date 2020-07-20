@@ -1,0 +1,55 @@
+// Define color
+$blue: #47b2f1;
+$yellow: #ffce00;
+$black: #000;
+$black-transparent: rgba(0, 0, 0, 0.5);
+$white: #FFF;
+$gray: #D3D3D3;
+$green1: #14CCB8;
+$lightyellow: #f5edcc;
+
+// Attribut color
+$color-text: $black;
+$color-text-alt: $blue;
+$color-brand: $yellow;
+$color-background: $white;
+$color-background-alt: $blue;
+$color-background-alt-2: $gray;
+$color-background-modal_login: $black-transparent;
+$color-background-news: $green1;
+
+// Define font-size
+$default-font-size: 2.5rem;
+$medium-font-size: 2.2rem;
+
+// Define font-family
+$font-family-content: 'Roboto', sans-serif;
+$font-family-fallback: 'Helvetica', Arial, sans-serif;
+
+// Defining the variable '$fa-font-path is necessary
+// For loading files of FA type
+// Here, we replace the value by default of FA by this one
+$fa-font-path: '~font-awesome/fonts';
+
+// Define the duration of the carousel of comments
+$duration-slow: 0.8s;
+$duration-medium: 0.5s;
+$duration-fast: 0.3s;
+
+// Breakpoints
+$breakpoint-medium: 500px;
+$breakpoint-large: 1140px;
+$breakpoint-extra-large: 1450px;
+
+// Fonts (family, size)
+$font-size: 16px;
+$font-size-medium: 18px;
+$font-size-large: 20px;
+
+// Animations
+$duration-slow: 1s;
+$duration-medium: 0.5s;
+$duration-fast: 0.2s;
+
+// Settings to ajust when needed
+

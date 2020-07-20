@@ -1,0 +1,37 @@
+.review_detail {
+    margin: 1em;
+    text-align: center;
+  }
+
+  .container_review_detail{
+    padding: 1em 1.5em;
+  }
+
+  .review_detail_img {
+    height: 300px;
+  }
+
+  .review_detail_title {
+    font-size: 2em;
+    margin: 2em;
+    line-height: 1em;
+    font-weight: bold;
+  }
+
+  .review_detail_content{
+    font-size: 1.2em;
+    line-height: 1.75em;
+    text-align: justify;
+  }
+
+.review_detail_author,
+.review_detail_date {
+    margin: 1em;
+}
+
+.review_detail_author{
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1em;
+}

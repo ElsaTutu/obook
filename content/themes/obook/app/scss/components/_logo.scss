@@ -1,0 +1,20 @@
+.obookheader_logo_img{
+    
+    @media(max-width: $breakpoint-medium) {
+        width: 20vh;
+        
+    }
+
+    @media(min-width: $breakpoint-medium) {
+        width: 20vh;
+        
+    }
+
+    @media(min-width: $breakpoint-large) {
+        width: 25vh;
+    }
+
+    @media(min-width: $breakpoint-extra-large) {
+        width: 30vh;
+    }
+}

@@ -1,0 +1,93 @@
+// card with avatar
+.perfil_detail {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    margin: 1em;
+    padding: 1.5em;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .perfil_detail{
+        @media(max-width: $breakpoint-medium) {
+        display: flex;
+        flex-direction: column;
+
+      }
+  
+      @media(min-width: $breakpoint-medium) {
+        display: flex;
+        flex-direction: row;
+
+      }
+      @media(min-width: $breakpoint-large) {
+
+      }
+    }
+  }
+  /* Add some padding inside the card container */
+  ._perfil_detail_container {
+    padding: 2px 16px;
+   
+  }
+
+  .perfil_detail_img {
+      height: 200px;
+      padding: 1em;
+  }
+
+  .perfil_detail_name, 
+  .perfil_detail_email,
+  .perfil_detail_membership {
+      text-align: center;
+  }
+
+  .perfil_detail_name{
+      font-weight: bold;
+  }
+
+  // comments part 
+
+  .perfil {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2em;
+
+      @media(min-width: $breakpoint-large) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+      }
+
+  }
+
+  .perfil_comments{
+      text-align: center;
+      width: 100%;
+  }
+
+  .perfil_comments_title{
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 1em;
+  }
+
+  .perfil_comments_detail{
+      line-height: 1.5em;
+      margin: 1.5em;
+  }
+
+  .perfil_comments_detail_title {
+    font-weight: bold;
+    margin: 0.5em
+  }
+
+
+  

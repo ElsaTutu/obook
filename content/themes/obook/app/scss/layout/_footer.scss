@@ -1,0 +1,57 @@
+.obookfooter{
+    padding: 1em 1em 1em 1em;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &_confidentiality_privacy{
+        a{
+            font-size: 1.5em;
+        }
+    }
+
+    &_copyright{
+        font-size: 1.5em;
+    }
+
+    &_social_link{
+        font-size: 1.7em;
+        a{
+            margin-right: 25px;
+        }
+    }
+
+    @media(max-width: $breakpoint-large) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        &_social_link{
+            font-size: 1.7em;
+            margin-top: 20px;
+            a{
+                margin-right: 0px
+            }
+        }
+    }
+
+    @media(max-width: $breakpoint-extra-large) {
+        &_confidentiality_privacy{
+            a{
+                font-size: 1.5em;
+            }
+        }
+    
+        &_copyright{
+            font-size: 1.5em;
+        }
+    
+        &_social_link{
+            font-size: 1.7em;
+            a{
+                margin-right: 25px;
+            }
+        }
+    }
+
+    
+}

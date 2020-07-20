@@ -1,0 +1,11 @@
+/vendor
+/wp
+/wp-config.php
+/content/plugins/*
+!/content/plugins/onewsletter
+/content/themes/*
+!/content/themes/obook
+/content/languages
+/content/upgrade
+/content/uploads
+/.htaccess

@@ -1,0 +1,60 @@
+.review {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    width: 400px;
+    border-radius: 8px;
+        &_title{
+            font-weight: bold;
+        }
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .review:hover {
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.4);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  .review_img {
+    border-radius: 5px 5px 0 0;
+    height: 200px;
+  }
+
+  .reviews{
+      
+
+      @media(max-width: $breakpoint-medium) {
+        display: flex;
+      flex-direction: column;
+      justify-items: center;
+      justify-content: space-around;
+    }
+
+    @media(min-width: $breakpoint-medium) {
+        display: flex;
+      flex-direction: row;
+      justify-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    @media(min-width: $breakpoint-large) {
+        display: flex;
+      flex-direction: row;
+      justify-items: center;
+      justify-content: space-around; 
+    }
+  }

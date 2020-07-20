@@ -1,0 +1,44 @@
+.obookheader{
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    @media(min-width: $breakpoint-medium) {
+        padding: 0.7em 0.7em 0.7em 0.7em;
+        margin: 0px;
+    }
+
+    @media(max-width: $breakpoint-large) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &_navbar{
+        @media(max-width: $breakpoint-large) {
+            &_links{
+                display:none;
+                margin-right: 0px;
+            }
+        }
+        @media(min-width: $breakpoint-large) {
+            &_links{
+                a{
+                    font-size: 1.35em;
+                    color: $color-text;
+                    margin-right: 10px;
+                }
+            }
+        }
+        @media(min-width: $breakpoint-extra-large) {
+            &_links{
+                a{
+                    font-size: 1.6em;
+                    color: $color-text-alt;
+                    margin-right: 40px;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,44 @@
+@import
+    'abstract/variables';
+
+@import
+    '~reset-css/sass/reset',
+    '~font-awesome/scss/font-awesome';  
+    
+@import
+    '~bulma/bulma',
+    'base/base';
+
+@import
+    'layout/header',
+    'layout/footer',
+    'layout/menu',
+    'layout/sidebar',
+    'layout/isnone',
+    'layout/books-news-title',   
+    'layout/books',
+    'layout/search',
+    'layout/wrapper',
+    'layout/main-nav',
+    'layout/aside',
+    'layout/404',
+    'layout/perfil',
+    'layout/review_detail';
+
+@import
+    'components/logo',
+    'components/modal_home',
+    'components/burger-menu',
+    'components/select',
+    'components/input',
+    'components/button',
+    'components/placeholder',
+    'components/ui-button',
+    'components/action-buttons',
+    'components/slider',
+    'components/accordion_faq',
+    'components/review_excerpt';
+
+
+@import
+    'shame';

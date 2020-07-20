@@ -1,0 +1,16 @@
+.main-nav{
+    &__item{
+        font-size: 2em;
+        a{
+            color: $white;
+        }
+    }
+}
+
+.obookheader_navbar_links {
+    :hover {
+        background-color: $color-background;
+        color: $black;
+    }
+    
+}

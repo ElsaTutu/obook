@@ -1,0 +1,117 @@
+/* The Modal (background) */
+.modal_forms {
+     display: none; /* Hidden by default */
+     position: fixed; /* Stay in place */
+     z-index: 1; /* on top */
+     left: 0;
+     top: 0;
+     width: 100%; 
+     height: 100%; 
+     overflow: auto; /* Enable scroll if needed */
+     background-color: $color-background-modal_login; /* if need a opacity effect behind the modal */
+     padding: 3em;
+
+   }
+  
+   /* Modal Content/Box */
+   .modal_forms_content {
+     background-color: $color-background;
+     position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+    padding: 1em;
+    text-align: center;
+
+
+    // break-point to adapt mobile Vs Desktop
+    @media(min-width: $breakpoint-medium) {
+        height:75%;
+        margin:15% auto;
+        max-height: 50vh;
+       width:30em;
+    }
+
+    @media(min-width: $breakpoint-large) {
+        height:50%;
+        margin:15% auto;
+        max-height: 50vh;
+       max-width:66em;
+       width:30em;
+    }
+
+    @media(min-width: $breakpoint-extra-large) {
+        height:50%;
+        margin:15% auto;
+        max-height: 50vh;
+       max-width:66em;
+       width:30em;
+    }
+   }
+  
+   /* The Close Button */
+   .close {
+     color: $color-text;
+     float: right;
+     font-size: 1em;
+     font-weight: bold;
+   }
+   /* effect on the close button */
+   .close:hover,
+   .close:focus {
+     color: $color-text-alt;
+     text-decoration: none;
+     cursor: pointer;
+   }
+
+.modal_form_login, 
+.modal_form_signin {
+    padding: 1em;
+}
+
+.modal_form_login_form, 
+.modal_form_sign_form{
+    margin: 1em;
+}
+
+.modal_form_login_submit, 
+.modal_form_signin_submit{
+    background-color: #00d1b2;
+    border-color: transparent;
+    color: $white;
+    font: 1em sans-serif;
+    width: 50%;
+}
+
+.modal_form_login_form_pseudo,
+.modal_form_login_form_password,
+.modal_form_login_form_submit,
+.modal_form_signin_form_pseudo,
+.modal_form_signin_form_email,
+.modal_form_signin_form_password,
+.modal_form_signin_form_submit {
+    margin: 0.5em;
+}
+
+.modal_form_login_title, 
+.modal_form_signin_title {
+    font-weight: bold;
+    font-family: $font-family-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
